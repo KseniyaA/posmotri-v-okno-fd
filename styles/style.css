@@ -25,7 +25,6 @@ body {
   background-color: #1b1919;
   position: relative;
   height: 800px;
-  padding: 133px 30px;
   align-items: center;
   justify-content: center;
 }
@@ -64,7 +63,7 @@ ol {
 
 .content {
   display: grid;
-  grid-template-columns: 65% 35%;
+  grid-template-columns: 62% 33%;
   grid-template-rows: 100%;
   grid-template-areas: 'result content__details';
   height: 100%;
@@ -210,7 +209,7 @@ input[type='checkbox']:focus-visible + .search-form__pseudo-checkbox::after {
 
 .content__list-container {
   position: relative;
-  height: 55%;
+  height: 37%;
   overflow: auto;
 }
 

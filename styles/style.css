@@ -286,7 +286,7 @@ input[type='checkbox']:focus-visible + .search-form__pseudo-checkbox::after {
 }
 
 .content__details .title {
-  font-family: 'Oswald', sans-serif;;
+  font-family: 'Oswald', sans-serif;
   font-size: 75px;
   font-weight: 700;
   line-height: 70.5px;
@@ -300,7 +300,7 @@ input[type='checkbox']:focus-visible + .search-form__pseudo-checkbox::after {
 }
 
 .content__video-card-title {
-  font-family: 'Oswald', sans-serif;;
+  font-family: 'Oswald', sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 30px;

@@ -70,8 +70,8 @@ ol {
 .result {
   grid-area: result;
   position: relative;
-  height: 100%;
-  align-content: end;
+  height: 96%;
+  align-content: center;
   width: 96%;
 }
 
@@ -182,7 +182,7 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::after {
 .content__details {
   grid-area: content__details;
   height: 100%;
-  align-content: end;
+  align-content: center;
 }
 
 .content__list-container {

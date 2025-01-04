@@ -193,7 +193,7 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::after {
 
 .content__list {
   display: grid;
-  row-gap: 20px;
+  row-gap: 24px;
   justify-items: stretch;
 }
 

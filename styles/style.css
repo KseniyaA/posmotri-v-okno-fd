@@ -8,13 +8,6 @@ html {
   block-size: 100%;
 }
 
-/*
-body {
-  position: relative;
-  height: 100%;
-}
-*/
-
 .page {
   display: flex;
   inline-size: 1200px;
@@ -25,7 +18,6 @@ body {
   font-size: 18px;
   background-color: #1b1919;
   position: relative;
-  height: 800px;
   align-items: center;
   justify-content: center;
 }
@@ -85,8 +77,8 @@ ol {
 
 .result__video-container {
   position: relative;
-  margin-top: 30px;
-  margin-bottom: 16px;
+  margin-block-start: 30px;
+  margin-block-end: 16px;
 }
 
 .result__video {
@@ -140,7 +132,7 @@ ol {
   appearance: none;
   cursor: pointer;
   min-width: 223px;
-  color: white;
+  color: #fff;
 }
 
 
@@ -151,10 +143,6 @@ ol {
 
 .search-form__label:has(:focus-visible) {
   outline: 1px solid white;
-  /*border: none;
-  display: flex;
-  justify-items: center;
-  align-items: center;*/
 }
 
 .search-form__label:has(.search-form__checkbox):hover {
@@ -191,22 +179,6 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::after {
   align-self: center;
 }
 
-/*
-input[type='checkbox']:focus-visible + .search-form__pseudo-checkbox::after {
-  width: 15px;
-  height: 15px;
-  background-color: white;
-  background-position: center;
-}
-*/
-/*
-.search-form__pseudo-checkbox::after {
-  content: " ";
-  width: 15px;
-  height: 15px;
-  align-self: center;
-}
-*/
 .content__details {
   grid-area: content__details;
   height: 100%;
@@ -276,8 +248,9 @@ input[type='checkbox']:focus-visible + .search-form__pseudo-checkbox::after {
 }
 
 .content__card-link:focus {
-  outline: 1px solid #fff;
-  color: #fff;
+  /*outline: 1px solid #fff;
+  color: #fff;*/
+  outline: none;
 }
 
 .content__card-link:focus-visible {

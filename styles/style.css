@@ -63,22 +63,21 @@ ol {
   width: 100%;
   position: relative;
   align-content: center;
-  place-items: end;
   justify-items: start;
 }
 
 .result {
   grid-area: result;
   position: relative;
-  height: 96%;
   align-content: center;
   width: 96%;
 }
 
 .result__video-container {
   position: relative;
-  margin-block-start: 30px;
-  margin-block-end: 16px;
+  margin-block-start: 84px;
+  margin-block-end: 12px;
+  
 }
 
 .result__video {
@@ -181,26 +180,22 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::after {
 
 .content__details {
   grid-area: content__details;
-  height: 100%;
   align-content: center;
 }
 
 .content__list-container {
   position: relative;
-  height: 38%;
+  height: 298px;
   overflow: auto;
 }
 
 .content__list {
   display: grid;
-  row-gap: 24px;
+  row-gap: 30px;
   justify-items: stretch;
 }
 
 .content__list-item {
-  padding-top: 5px;
-  padding-left: 3px;
-  padding-right: 3px;
   cursor: pointer;
 }
 
@@ -209,7 +204,7 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::after {
   flex-direction: row;
   justify-content: space-between;
   align-items: start;
-  width: 100%;
+  width: 390px;
 }
 
 .content__video-card-description-container {
@@ -229,11 +224,6 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::after {
 }
 
 .content__card-link_current {
-  display: block;
-  background-color: #545050;
-}
-
-.content__card-link_current:active {
   background-color: #545050;
 }
 
@@ -248,8 +238,6 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::after {
 }
 
 .content__card-link:focus {
-  /*outline: 1px solid #fff;
-  color: #fff;*/
   outline: none;
 }
 
@@ -265,7 +253,7 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::after {
   line-height: 70.5px;
   text-align: left;
   text-transform: uppercase;
-  margin-bottom: 22px;
+  padding-bottom: 22px;
 }
 
 .content__accent {
@@ -330,7 +318,6 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::after {
 }
 
 .more-button {
-  margin-top: 12px;
-  margin-bottom: 7px;
+  margin-top: 30px;
   width: 100%;
 }
